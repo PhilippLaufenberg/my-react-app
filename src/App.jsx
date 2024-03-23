@@ -1,7 +1,8 @@
-import List from "./List.jsx";
+import ProfilePicture from "./ProfilePicture.jsx";
 
 function App() {
-  const fruits = [
+  {
+    /*const fruits = [
     { id: 1, name: "apple", calories: 95 },
     { id: 2, name: "orange", calories: 45 },
     { id: 3, name: "banana", calories: 105 },
@@ -16,11 +17,16 @@ function App() {
     { id: 4, name: "corn", calories: 63 },
     { id: 5, name: "broccoli", calories: 50 },
   ];
-
+*/
+  }
   return (
     <>
-      <List items={fruits} category="Fruits" />
-      <List items={veggies} category="Veggies" />
+      <ProfilePicture />
+      {/*{fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
+      {veggies.length > 0 && <List items={veggies} category="Veggies" />}{" "}
+      
+      right hand side is always true, because it exists (empty), but left side
+  only is true if lenght gt 0. && operator returns null if one is false*/}
     </>
   );
 }
