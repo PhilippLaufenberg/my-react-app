@@ -1,4 +1,4 @@
-import Counter from "./Counter.jsx";
+import MyComponent2 from "./MyComponent2.jsx";
 
 function App() {
   {
@@ -21,7 +21,7 @@ function App() {
   }
   return (
     <>
-      <Counter />
+      <MyComponent2 />
       {/*{fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
       {veggies.length > 0 && <List items={veggies} category="Veggies" />}{" "}
       
