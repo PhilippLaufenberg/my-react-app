@@ -1,4 +1,4 @@
-import MyComponent2 from "./MyComponent2.jsx";
+import ColorPicker from "./ColorPicker.jsx";
 
 function App() {
   {
@@ -21,7 +21,7 @@ function App() {
   }
   return (
     <>
-      <MyComponent2 />
+      <ColorPicker />
       {/*{fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
       {veggies.length > 0 && <List items={veggies} category="Veggies" />}{" "}
       
