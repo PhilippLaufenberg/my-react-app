@@ -1,4 +1,4 @@
-import ProfilePicture from "./ProfilePicture.jsx";
+import Counter from "./Counter.jsx";
 
 function App() {
   {
@@ -21,7 +21,7 @@ function App() {
   }
   return (
     <>
-      <ProfilePicture />
+      <Counter />
       {/*{fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
       {veggies.length > 0 && <List items={veggies} category="Veggies" />}{" "}
       
