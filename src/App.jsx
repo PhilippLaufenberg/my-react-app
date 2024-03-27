@@ -1,5 +1,6 @@
 import ColorPicker from "./ColorPicker.jsx";
 import Counter from "./Counter.jsx";
+import MyComponent3 from "./MyComponent3.jsx";
 
 function App() {
   {
@@ -22,7 +23,7 @@ function App() {
   }
   return (
     <>
-      <Counter />
+      <MyComponent3 />
       {/*{fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
       {veggies.length > 0 && <List items={veggies} category="Veggies" />}{" "}
       
