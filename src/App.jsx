@@ -3,6 +3,7 @@ import Counter from "./Counter.jsx";
 import DigitalClock from "./DigitalClock.jsx";
 import MyComponent4 from "./MyComponent4.jsx";
 import MyComponent5 from "./MyComponent5.jsx";
+import Stopwatch from "./Stopwatch.jsx";
 import ToDoList from "./ToDoList.jsx";
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
   }
   return (
     <>
-      <DigitalClock />
+      <Stopwatch />
       {/*{fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
       {veggies.length > 0 && <List items={veggies} category="Veggies" />}{" "}
       
